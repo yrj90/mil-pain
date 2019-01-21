@@ -1,0 +1,4 @@
+#Experiences for training
+1. setting base_lr = 0.0001, the loss are bounce up and down from 1 to 0.7 to 2,.., after iter = 400, loss = 87!
+   -> loss's up and down may be because learning rate are too high, setting them from lr = 1e-5, and see.
+   
