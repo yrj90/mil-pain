@@ -7,3 +7,9 @@
 
 3. AttributeError: 'module' object has no attribute 'text_format'
    -> solve:adding 'import google.protobuf.text_format'
+4. On csc: Be ATTENTION of copying files to csc, because the path are different.
+
+Omitting computing bounding-box regression targets...
+srun: error: g99: task 0: Aborted (core dumped)
+srun: Terminating job step 37729598.0
+-> This is becasue your solver.prototxt file which assign the path of train.prototxt are with wrong path. Change it to the path on csc.
